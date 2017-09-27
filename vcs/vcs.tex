@@ -7,6 +7,7 @@
     
     \usepackage{booktabs}
     \usepackage[scale=2]{ccicons}
+
     
     \usepackage{pgfplots}
     \usepgfplotslibrary{dateplot}
@@ -428,22 +429,66 @@
 
     \end{frame}
 
-    \begin{frame}[fragile]{Avantatges del sistema Distribuït vs Centralitzat}
+
+
+    \begin{frame}[fragile]{Argot}
       
-            \begin{block}{Principals avantatges del sistema distribuït:}
+            \begin{block}{Argot general}
       
               \begin{itemize}
-                \item Tothom té una còpia local del codi
-                \item Es pot treballar Offline
-                \item És ràpid, tot es fa localment i no en el servidor central
-                \item Els canvis es gestionen millor al tenir un GUID per canvi realitzat
-                \item Les Branques i les Unions són fàcils ja que cada desenvolupador té la seva pròpia Branca
-                \item Menys gestió, ja que no cal un servidor central en funcionament
+                \item Repositori (repo): base de dades amb els fitxers  
+                \item Servidor: ordinador on hi ha el repositori
+                \item Client:  ordinador que es connecta al repositori
+                \item Trunk/Main/Master: primera localització del codi en el repositori
               \end{itemize}
-      
             \end{block}
       
     \end{frame}
+
+    \begin{frame}[fragile]{Argot}
+      
+            \begin{block}{Accions en sistemes centralitzats}
+      
+              \begin{itemize}
+                \item Checkout:  descarregar fitxers o fitxer del repositori
+                \item Add:  afegir un fitxer/fitxers en el repositori per primer cop
+                \item Check in: carregar fitxers al repositori
+                \item ChangeLog/History:  llista de canvis fets a un fitxer
+                \item Update/Sync: sincronitza els fitxers locals a la última versió del repositori
+                \item Revert: descarta els canvis locals del fitxer i agafa la última versió del repositori
+              \end{itemize}
+            \end{block}
+      
+    \end{frame}
+
+    \begin{frame}[fragile]{Argot}
+      
+            \begin{block}{Accions en sistemes distribuïts}
+      
+              \begin{itemize}
+                \item Pull:  obtenir canvis d'un altre repositori
+                \item Push:  enviar canvis a un altre repositori
+                \item Commit: enviar canvis al repositori local 
+             \end{itemize}
+            \end{block}
+      
+    \end{frame}
+
+    \begin{frame}[fragile]{Argot}
+      
+            \begin{block}{Accions avançades}
+      
+              \begin{itemize}
+                \item Branch: crea una copia separada per per test, correccions, etc.
+                \item Diff: diferencia entre dos fitxers
+                \item Merge (Path): aplica canvis d'un fitxer a un altre per tenir la última versió
+                \item Conflict: al tenir canvis pendents que contradiuen un altre canvi (els dos canvis no es poden aplicar)
+                \item Resolve:  resolució dels conflictes
+              \end{itemize}
+            \end{block}
+      
+    \end{frame}
+
 
     \begin{frame}[fragile]{Revisions}
       
@@ -455,6 +500,22 @@
 
               \centering
               \includegraphics[height=4cm]{basic_checkin.png}
+      
+            \end{block}
+      
+    \end{frame}
+
+    \begin{frame}[fragile]{Revisions en sistemes centralitzats}
+      
+            \begin{block}{Revisions en un sistema centralitzat}
+      
+              \begin{itemize}
+                \item Els diferents desenvolupadors envien els canvis a la branca principal
+                \item Teòricament s'hauria de fer una branca perque els altres ho provin
+              \end{itemize}
+
+              \centering
+              \includegraphics[height=4cm]{centralized_example.png}
       
             \end{block}
       
@@ -558,6 +619,22 @@
       
     \end{frame}
 
+    \begin{frame}[fragile]{Introducció als sistemes distribuïts}
+      
+            \begin{block}{En sistemes distribuïts cada desenvolupador té el seu propi repo}
+      
+              \begin{itemize}
+                \item En sistemes distribuïts es fan unions entre les branques dels desenvolupadors
+                
+              \end{itemize}
+
+              \centering
+              \includegraphics[height=6cm]{distributed_example.png}
+      
+            \end{block}
+      
+    \end{frame}  
+
     \begin{frame}[fragile]{Merge en sistemes distribuïts}
       
             \begin{block}{Merge en sistemes distribuïts}
@@ -589,6 +666,23 @@
             \end{block}
       
     \end{frame}  
+
+    \begin{frame}[fragile]{Avantatges del sistema Distribuït vs Centralitzat}
+      
+            \begin{block}{Principals avantatges del sistema distribuït:}
+      
+              \begin{itemize}
+                \item Tothom té una còpia local del codi
+                \item Es pot treballar Offline
+                \item És ràpid, tot es fa localment i no en el servidor central
+                \item Els canvis es gestionen millor al tenir un GUID per canvi realitzat
+                \item Les Branques i les Unions són fàcils ja que cada desenvolupador té la seva pròpia Branca i es poden realitzar proves fàcilment
+                \item Menys gestió, ja que no cal un servidor central en funcionament
+              \end{itemize}
+      
+            \end{block}
+      
+    \end{frame}
 
     \section{Pràctiques}
 
