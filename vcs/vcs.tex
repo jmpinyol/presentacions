@@ -93,13 +93,7 @@
 
       \begin{block}{Qui sóc?}
 
-        Em dic \textbf{Josep Maria Pinyol Fontseca} i porto 20 anys a la indústria del software des de desenvolupador fins a director de projectes.
-
-        \begin{itemize}
-          \item Treballant amb control de versions des del 1998
-          \item Realització i participació de projectes petits fins a grans projectes amb desenes de desenvolupadors
-          \item A \textbf{Endepro Software} des de fa 14 anys
-        \end{itemize}
+        Em dic \textbf{Josep Maria Pinyol Fontseca} i sóc un apassionat de la programació. Aquí a la UPC em van ensenyar a programar microprocesadors, però la curiositat d’entendre què hi havia darrera d’aquella programació, ara fa més de 20 anys, em va encaminar al desenvolupament de software. Des de fa 14 anys dirigeixo els projectes que desenvolupa el meu equip a Endepro Software
 
         \centering
         \includegraphics[width=2cm, height=2cm]{endepro.png}
@@ -686,9 +680,8 @@
 
     \section{Pràctiques}
     
-    \begin{frame}[fragile]{GIT}
-      
-            \begin{block}{Utilitzarem GIT com a sistema de control de versions distribuït}
+    \begin{frame}[fragile]{GIT - Sistema de control de versions distribuït}
+            \begin{block}{Utilitzarem GIT com a sistema de control de versions}
       
               \begin{itemize}
                 \item La majoria d'entorns de desenvolupament i editors ja tenen integrat el GIT
@@ -696,13 +689,189 @@
               \end{itemize}
       
             \end{block}
-      
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Inicialització d'un repositori}
+
+        \begin{enumerate}
+          \item \texttt{\textbf{git init}}
+          \item Si ens hi fixem ens ha creat una carpeta \textbf{.git} en el directori de treball
+          \item Ja tenim el repositori apunt
+
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Afegim fitxers al repositori creat i ho enviem al repositori}
+
+        \begin{enumerate}
+          \item \texttt{\textbf{git add fitxer.txt}}
+          \item \texttt{\textbf{git commit -m "Versió inicial del fitxer"}}
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Fluxe de treball general}
+
+        \centering
+        \includegraphics[height=6cm]{git.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Modificant i enviant els fitxers modificats}
+
+        \begin{enumerate}
+          \item Modifiquem el contingut del fitxer.txt
+          \item \texttt{\textbf{git status}} ens dona informació de l'estat actual
+          \item \texttt{\textbf{git add fitxer.txt}}
+          \item \texttt{\textbf{git commit -m "Canvis que he fet..."}}
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Modificant i recuperar la versió anterior}
+
+        \begin{enumerate}
+          \item Modifiquem el contingut del fitxer.txt de nou
+          \item \texttt{\textbf{git checkout fitxer.txt}}
+          \item Tornem a tenir la versió anterior del fitxer
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Modificant, stage i unstage d'un fitxer en concret}
+
+        \begin{enumerate}
+          \item Modifiquem el contingut del fitxer.txt de nou
+          \item \texttt{\textbf{git commit fitxer.txt}}
+          \item \texttt{\textbf{git status}}
+          \item \texttt{\textbf{git reset HEAD fitxer.txt}}
+          \item El fitxer l'hem afegit per enviar al repositori però al final l'hem tret
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques}
+
+        \begin{enumerate}
+          \item \texttt{\textbf{git branch testing}}
+        \end{enumerate}
+
+        \centering
+        \includegraphics[height=6cm]{b1.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques}
+
+        \begin{enumerate}
+          \item \texttt{\textbf{git checkout testing}}
+        \end{enumerate}
+
+        \centering
+        \includegraphics[height=6cm]{b2.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques}
+
+        \begin{enumerate}
+          \item Modifiquem el fitxer.txt i ho enviem al repositori
+        \end{enumerate}
+
+        \centering
+        \includegraphics[height=6cm]{b3.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques}
+
+        \begin{enumerate}
+          \item Tornem a la branca master
+          \item \texttt{\textbf{git checkout master}}
+        \end{enumerate}
+
+        \centering
+        \includegraphics[height=6cm]{b4.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques}
+
+        \begin{enumerate}
+          \item Modifiquem el fitxer.txt i ho enviem al repositori
+        \end{enumerate}
+
+        \centering
+        \includegraphics[height=6cm]{b5.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques - Merge}
+
+        \begin{enumerate}
+          \item Entrem a la branca testing i afegim un nou fitxer
+          \item Si canviem de branca veurem que en una hi ha uns fitxers diferents que en l'altra
+          \item \texttt{\textbf{git checkout master}}
+          \item \texttt{\textbf{git merge testing}}
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques - Conflictes}
+
+        \begin{enumerate}
+          \item Entrem a la branca testing, modifiquem el fitxer.txt en una mateixa linia que la master i l'enviem al repo
+          \item \texttt{\textbf{git checkout testing}}
+          \item \texttt{\textbf{git add fitxer.txt}}
+          \item \texttt{\textbf{git commit -m "Desde de testing"}}
+          \item Saltem a la branca master i fem un merge
+          \item \texttt{\textbf{git checkout master}}
+          \item \texttt{\textbf{git merge testing}}
+        \end{enumerate}
+
+      \end{block}
     \end{frame}
 
     \section{Conclusions}
     
     \begin{frame}{Resum}
-    
+      \begin{block}{Treballeu amb sistemes de control de versions}
+        
+                \begin{enumerate}
+                  \item Escolliu un sistema de control de versions (GIT, HG, etc.)
+                  \item Establiu un mètode de treball segons la vostra empresa
+                  \item Utilitzem eines de gestió dels canvis (El mateix entorn de desenvolupament, SourceTree, TortoiseGIT, etc.)
+                  \item Munteu un repositori centralitzat en cas de vàris desenvolupadors
+                  \item Mantenir una comunicació i protocol per evitar els mínims conflictes
+                \end{enumerate}
+        
+              \end{block}
     \end{frame}
     
     \begin{frame}[standout]
