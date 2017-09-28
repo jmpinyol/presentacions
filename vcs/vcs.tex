@@ -4,6 +4,7 @@
     \usepackage[utf8]{inputenc}
     
     \usepackage{appendixnumberbeamer}
+    \usepackage{hyperref}
     
     \usepackage{booktabs}
     \usepackage[scale=2]{ccicons}
@@ -871,6 +872,34 @@
       \end{block}
     \end{frame}
 
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques}
+
+        \begin{enumerate}
+          \item Anem a recuperar una versió anterior (d'un TAG)
+          \item \texttt{\textbf{git checkout 1.0 -b branca1.0}}
+          \item Fem els canvis pertinents
+          \item \texttt{\textbf{git commit -m "Desde de 1.0"}}
+          \item Saltem a la branca master i fem un merge
+          \item \texttt{\textbf{git checkout master}}
+          \item \texttt{\textbf{git merge branca1.0}}
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballar amb un gestor GIT}
+
+        No és fàcil treballar per linia de comandes i alguns editors o entorns tenen un gestor GIT limitat
+        \begin{itemize}
+          \item Utilitzar un gestor GIT que ens ajudi en el dia a dia
+          \item Tenim moltes opcions:  SmartGit, GitKraken, SourceTree, TortoiseGIT, etc.
+        \end{itemize}
+
+      \end{block}
+    \end{frame}
+
     \section{Conclusions}
     
     \begin{frame}{Resum}
@@ -879,12 +908,16 @@
                 \begin{enumerate}
                   \item Escolliu un sistema de control de versions (GIT, HG, etc.)
                   \item Establiu un mètode de treball segons la vostra empresa
-                  \item Utilitzem eines de gestió dels canvis (El mateix entorn de desenvolupament, SourceTree, TortoiseGIT, etc.)
+                  \item Utilitzeu eines de gestió dels canvis (El mateix entorn de desenvolupament, GitKraken, SmartGit, SourceTree, TortoiseGIT, etc.)
                   \item Munteu un repositori centralitzat en cas de vàris desenvolupadors
                   \item Mantenir una comunicació i protocol per evitar els mínims conflictes
                 \end{enumerate}
         
-              \end{block}
+      \end{block}
+
+      \centering
+      Us podeu descarregar el codi font de la presentació de:
+      \textbf{\href{https://github.com/jmpinyol/presentacions}https://github.com/jmpinyol/presentacions}
     \end{frame}
     
     \begin{frame}[standout]
