@@ -1,0 +1,10 @@
+\frametitle{GIT}
+\begin{block}{Treballar amb un gestor GIT}
+
+        No és fàcil treballar per linia de comandes i alguns editors o entorns tenen un gestor GIT limitat
+        \begin{itemize}
+          \item Utilitzar un gestor GIT que ens ajudi en el dia a dia
+          \item Tenim moltes opcions:  SmartGit, GitKraken, SourceTree, TortoiseGIT, etc.
+        \end{itemize}
+
+      \end{block}

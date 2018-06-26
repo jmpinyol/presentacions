@@ -73,7 +73,7 @@
 
     \title{Control de versions}
     \subtitle{Introducció als sistemes de gestió de canvis}
-    \date{28/09/2017}
+    \date{27/06/2018}
     \author{Josep Maria Pinyol Fontseca}
     \institute{Endepro Software, S.L.}
     % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
@@ -706,6 +706,19 @@
     \end{frame}
 
     \begin{frame}[fragile]{GIT}
+      \begin{block}{Inicialització d'un repositori - Configuració}
+
+        \begin{enumerate}
+          \item Anem a configurar les dades de l'usuari que treballa amb el control de versions
+          \item Nom: \texttt{\textbf{git config --global user.nom "Josep Maria Pinyol Fontseca" }}
+          \item Correu: \texttt{\textbf{git config --global user.email "jmpinyol@endepro.com" }}
+
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
       \begin{block}{Afegim fitxers al repositori creat i ho enviem al repositori}
 
         \begin{enumerate}
@@ -745,6 +758,7 @@
           \item Modifiquem el contingut del fitxer.txt de nou
           \item \texttt{\textbf{git checkout fitxer.txt}}
           \item Tornem a tenir la versió anterior del fitxer
+          \item Podem revertir un commit sencer amb un revert \texttt{\textbf{git revert master}}
         \end{enumerate}
 
       \end{block}
@@ -887,6 +901,97 @@
 
       \end{block}
     \end{frame}
+
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques - Detached HEAD}
+
+        \begin{enumerate}
+          \item Podem anar a un commit en concret.  En aquest cas, el HEAD no apuntarà a cap branca
+          \item \texttt{\textbf{git checkout 1.0}}
+          \item Estem en Detached HEAD state.  Els commits, etc no es guardaran
+          \item Per tornar a l'estat normal fem un \texttt{\textbf{git checkout master}}
+          \item És millor fer una branca i treballar en aquesta.  Sempre la podem esborrar un cop provat el que vulguem
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Treballant amb branques - Esborrar branques}
+
+        \begin{enumerate}
+          \item Moltes vegades podem fer branques per provar o corregir problemes en el projecte
+          \item Un cop fet i tenim el merge realitzat, podem esborrar-la amb un \texttt{\textbf{git branch -d testing}}
+
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Excloure fitxers}
+
+        \begin{enumerate}
+          \item Podem excloure fitxers utilitzant el fitxer \texttt{\textbf{.gitignore}}
+          \item Com a exemple, creem el fitxer test.exe
+          \item l'afegim al \texttt{\textbf{.gitignore}}
+          \item Si fem un \texttt{\textbf{git status}} no apareix
+          \item Afegit el \texttt{\textbf{.gitignore}} al repostitori
+          \item A la URL https://github.com/github/gitignore tenim fitxers ignore comuns per tipus de projectes
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Pràctica}
+
+        \begin{enumerate}
+          \item Crear el projecte "Test" de tipus consola els Visual Studio 2017 (C\#) i afegir-ho a un repositori GIT
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Connexió amb repositoris remots}
+
+        \begin{enumerate}
+          \item Anem a descarregar un repositori remot
+          \item \texttt{\textbf{git clone http...}}
+          \item Ja tenim una copia del repositori remot en local
+          \item A partir d'aqui podem treballar localment sense necessitat de connexió
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Enviar canvis al respositori central}
+
+        \begin{enumerate}
+          \item Afegim algun fitxer al repositori
+          \item Fem un Commit
+          \item Enviem els canvis al respositori central: \texttt{\textbf{git push}}
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Rebre canvis}
+
+        \begin{enumerate}
+          \item Abans de rebre canvis hem de fer un \textbf{commit} del nostre repositori local  
+          \item Fem un Pull per rebre els canvis: \texttt{\textbf{git pull}}
+          \item Si volem rebre tota la informació del repositori podem fer un fetch \texttt{\textbf{git fetch}}
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
 
     \begin{frame}[fragile]{GIT}
       \begin{block}{Treballar amb un gestor GIT}
