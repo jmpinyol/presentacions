@@ -1095,6 +1095,23 @@
       \end{block}
     \end{frame}
 
+    \begin{frame}[fragile]{Altres comandes GIT - Fast Forward}
+
+      Anteriorment haviem vist la comanda Merge per tal d'unificar branques.  Per defecte s'utilitza el Fast Forward.
+      \begin{block}{Provem:}
+      \begin{itemize}
+        \item Verifiquem que tinguem alguns commits en la branca actual
+        \item Crearem una nova branca "b1" i afegim alguns commits
+        \item Tornem a la branca principal
+        \item Mirem com tenim el log: \texttt{\textbf{git log --graph}}
+        \item Fem un merge i mirem com tenim el log de nou
+        \item Tornem enrere (reset) per tenir-ho com abans
+        \item Fem un merge de nou però amb: \texttt{\textbf{git merge --no-ff b1}}
+        \item Mirem el log altre cop
+      \end{itemize}
+      \end{block}
+    \end{frame}
+
     \begin{frame}[standout]
       Preguntes?
     \end{frame}
