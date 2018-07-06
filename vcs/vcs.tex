@@ -94,7 +94,8 @@
 
       \begin{block}{Qui sóc?}
 
-        Em dic \textbf{Josep Maria Pinyol Fontseca} i sóc un apassionat de la programació. Aquí a la UPC em van ensenyar a programar microprocesadors, però la curiositat d’entendre què hi havia darrera d’aquella programació, ara fa més de 20 anys, em va encaminar al desenvolupament de software. Des de fa 14 anys dirigeixo els projectes que desenvolupa el meu equip a Endepro Software
+        %Em dic \textbf{Josep Maria Pinyol Fontseca} i sóc un apassionat de la programació. Aquí a la UPC em van ensenyar a programar microprocesadors, però la curiositat d’entendre què hi havia darrera d’aquella programació, ara fa més de 20 anys, em va encaminar al desenvolupament de software. Des de fa 14 anys dirigeixo els projectes que desenvolupa el meu equip a Endepro Software
+        Em dic \textbf{Josep Maria Pinyol Fontseca} i sóc un apassionat de la programació. De formació Enginyer Industrial en Electrònica, vaig començar a programar microprocesadors, però la curiositat d’entendre què hi havia darrera d’aquella programació, ara fa més de 20 anys, em va encaminar al desenvolupament de software. Des de fa 14 anys dirigeixo els projectes que desenvolupa el meu equip a Endepro Software
 
         \centering
         \includegraphics[width=2cm, height=2cm]{endepro.png}
@@ -687,6 +688,7 @@
               \begin{itemize}
                 \item La majoria d'entorns de desenvolupament i editors ja tenen integrat el GIT
                 \item Es pot treballar amb linia de comandes o amb programes especifics per GIT
+                \item Per començar, descarregar i instal·lar https://git-scm.com/downloads
               \end{itemize}
       
             \end{block}
@@ -759,6 +761,19 @@
           \item \texttt{\textbf{git checkout fitxer.txt}}
           \item Tornem a tenir la versió anterior del fitxer
           \item Podem revertir un commit sencer amb un revert \texttt{\textbf{git revert master}}
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Visualització d'estat}
+
+        \begin{enumerate}
+          \item Tenim diferents instruccions per tenir informació del repositori, directori de treball, etc.
+          \item Per saber l'estat del directori actual: \texttt{\textbf{git status}} 
+          \item Si volem un registre dels commits realitzats \texttt{\textbf{git log}}
+          \item Amb \texttt{\textbf{git blame fitxer}} ens dona informació d'un fitxer en concret
         \end{enumerate}
 
       \end{block}
@@ -923,7 +938,6 @@
         \begin{enumerate}
           \item Moltes vegades podem fer branques per provar o corregir problemes en el projecte
           \item Un cop fet i tenim el merge realitzat, podem esborrar-la amb un \texttt{\textbf{git branch -d testing}}
-
         \end{enumerate}
 
       \end{block}
@@ -949,6 +963,22 @@
 
         \begin{enumerate}
           \item Crear el projecte "Test" de tipus consola els Visual Studio 2017 (C\#) i afegir-ho a un repositori GIT
+        \end{enumerate}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{GIT}
+      \begin{block}{Stash}
+
+        \begin{enumerate}
+          \item Podem acumular els canvis que hem fet per utilitzar més endavant
+          \item Fem alguns canvis el fitxer
+          \item Executem \texttt{\textbf{git stash}} i tornarem a tenir el fitxer anterior
+          \item Podem tenir més d'un stash a la cua.  Podem veure la llista amb \texttt{\textbf{git stash list}}
+          \item Per \texttt{\textbf{git stash list}}
+          \item Per agafar un stash \texttt{\textbf{git stash pop}} o \texttt{\textbf{git stash pop stash@{2}}}
+          \item Tenir en compte que fa un merge amb l'actual
         \end{enumerate}
 
       \end{block}
@@ -993,7 +1023,11 @@
     \end{frame}
 
 
-    \begin{frame}[fragile]{GIT}
+
+
+    \section{Utilitzant un gestor GIT}
+    
+    \begin{frame}[fragile]{Gestor GIT}
       \begin{block}{Treballar amb un gestor GIT}
 
         No és fàcil treballar per linia de comandes i alguns editors o entorns tenen un gestor GIT limitat
@@ -1005,24 +1039,28 @@
       \end{block}
     \end{frame}
 
-    \section{Conclusions}
-    
-    \begin{frame}{Resum}
-      \begin{block}{Treballeu amb sistemes de control de versions}
         
-                \begin{enumerate}
-                  \item Escolliu un sistema de control de versions (GIT, HG, etc.)
-                  \item Establiu un mètode de treball segons la vostra empresa
-                  \item Utilitzeu eines de gestió dels canvis (El mateix entorn de desenvolupament, GitKraken, SmartGit, SourceTree, TortoiseGIT, etc.)
-                  \item Munteu un repositori centralitzat en cas de vàris desenvolupadors
-                  \item Mantenir una comunicació i protocol per evitar els mínims conflictes
-                \end{enumerate}
-        
-      \end{block}
+    \begin{frame}[fragile]{Gestor GIT}
+      \begin{block}{Treballar amb un gestor GIT}
 
-      \centering
-      Us podeu descarregar el codi font de la presentació de:
-      \textbf{\href{https://github.com/jmpinyol/presentacions}https://github.com/jmpinyol/presentacions}
+        Treballarem amb el SourceTree ja que utilitzem BitBucket i queda tot més integrat.
+        \begin{itemize}
+          \item Descarregar la última versió de https://www.sourcetreeapp.com
+        \end{itemize}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Gestor GIT - Pràctica}
+      \begin{block}{Pràctica}
+
+        \begin{enumerate}
+          \item Crearem un projecte on hi participi varis usuaris
+          \item Primer un usuari serà el crearà l'estructura bàsica del projecte i el publicarà en un repositori
+          \item La resta d'usuaris farà una part del projecte
+        \end{enumerate}
+
+      \end{block}
     \end{frame}
     
     \begin{frame}[standout]

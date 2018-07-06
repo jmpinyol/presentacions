@@ -608,6 +608,9 @@ INPUT vcs.vrb
 OUTPUT vcs.vrb
 INPUT vcs.vrb
 INPUT vcs.vrb
+OUTPUT vcs.vrb
+INPUT vcs.vrb
+INPUT vcs.vrb
 INPUT img/b1.png
 INPUT ./img/b1.png
 INPUT ./img/b1.png
@@ -635,6 +638,15 @@ INPUT vcs.vrb
 INPUT img/b5.png
 INPUT ./img/b5.png
 INPUT ./img/b5.png
+OUTPUT vcs.vrb
+INPUT vcs.vrb
+INPUT vcs.vrb
+OUTPUT vcs.vrb
+INPUT vcs.vrb
+INPUT vcs.vrb
+OUTPUT vcs.vrb
+INPUT vcs.vrb
+INPUT vcs.vrb
 OUTPUT vcs.vrb
 INPUT vcs.vrb
 INPUT vcs.vrb

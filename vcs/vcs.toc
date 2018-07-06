@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}}{3}{0}{1}
 \beamer@sectionintoc {2}{Sistemes de control de versions}{6}{0}{2}
 \beamer@sectionintoc {3}{Pr\IeC {\`a}ctiques}{30}{0}{3}
-\beamer@sectionintoc {4}{Conclusions}{56}{0}{4}
+\beamer@sectionintoc {4}{Utilitzant un gestor GIT}{57}{0}{4}

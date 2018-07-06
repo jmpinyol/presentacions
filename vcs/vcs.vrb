@@ -1,10 +1,10 @@
-\frametitle{GIT}
-\begin{block}{Treballar amb un gestor GIT}
+\frametitle{Gestor GIT - Pràctica}
+\begin{block}{Pràctica}
 
-        No és fàcil treballar per linia de comandes i alguns editors o entorns tenen un gestor GIT limitat
-        \begin{itemize}
-          \item Utilitzar un gestor GIT que ens ajudi en el dia a dia
-          \item Tenim moltes opcions:  SmartGit, GitKraken, SourceTree, TortoiseGIT, etc.
-        \end{itemize}
+        \begin{enumerate}
+          \item Crearem un projecte on hi participi varis usuaris
+          \item Primer un usuari serà el crearà l'estructura bàsica del projecte i el publicarà en un repositori
+          \item La resta d'usuaris farà una part del projecte
+        \end{enumerate}
 
       \end{block}
