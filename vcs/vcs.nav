@@ -130,12 +130,21 @@
 \headcommand {\beamer@framepages {59}{59}}
 \headcommand {\slideentry {4}{0}{4}{60/60}{}{0}}
 \headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {4}{0}{5}{61/61}{}{0}}
+\headcommand {\sectionentry {5}{Altres comandes GIT}{61}{Altres comandes GIT}{0}}
+\headcommand {\beamer@sectionpages {57}{60}}
+\headcommand {\beamer@subsectionpages {57}{60}}
+\headcommand {\slideentry {5}{0}{1}{61/61}{}{0}}
 \headcommand {\beamer@framepages {61}{61}}
-\headcommand {\slideentry {4}{0}{6}{62/62}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{62/62}{}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\beamer@partpages {1}{62}}
-\headcommand {\beamer@subsectionpages {57}{62}}
-\headcommand {\beamer@sectionpages {57}{62}}
-\headcommand {\beamer@documentpages {62}}
-\headcommand {\def \inserttotalframenumber {56}}
+\headcommand {\slideentry {5}{0}{3}{63/63}{}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\slideentry {5}{0}{4}{64/64}{}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {5}{0}{5}{65/65}{}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\beamer@partpages {1}{65}}
+\headcommand {\beamer@subsectionpages {61}{65}}
+\headcommand {\beamer@sectionpages {61}{65}}
+\headcommand {\beamer@documentpages {65}}
+\headcommand {\def \inserttotalframenumber {58}}

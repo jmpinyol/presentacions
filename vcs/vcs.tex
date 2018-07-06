@@ -1062,7 +1062,39 @@
 
       \end{block}
     \end{frame}
+
+
+    \section{Altres comandes GIT}
     
+    \begin{frame}[fragile]{Altres comandes GIT}
+
+      En la següent secció veurem altres comandes GIT on alguna d'elles s'han d'utilitzar amb cura.
+      \begin{block}{Seran:}
+      \begin{itemize}
+        \item reset
+        \item merge amb fast forward i sense
+        \item cherry-picks
+        \item rebase
+      \end{itemize}
+      \end{block}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Altres comandes GIT - Reset}
+
+      Ens mou la posició de la branca actual.  
+      \begin{block}{Provem:}
+      \begin{itemize}
+        \item Primer crearem un nou repositori
+        \item Afegim uns quants commits on a cada commit afegit un nou fitxer
+        \item Per anar 3 posicions enrera \texttt{\textbf{git reset HEAD\textasciitilde{}3}}
+        \item Mirem que ha passat amb els fitxers
+        \item Altres opcions:  --hard --soft
+        \item \texttt{\textbf{git reset <ID> --soft}}
+        \item \texttt{\textbf{git reset <ID> --hard}}
+      \end{itemize}
+      \end{block}
+    \end{frame}
+
     \begin{frame}[standout]
       Preguntes?
     \end{frame}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.23)  26 JUN 2018 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.23)  6 JUL 2018 07:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1681,7 +1681,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/endepro.png, id=85, 200.75pt x 200.75pt>
+<img/endepro.png, id=91, 200.75pt x 200.75pt>
 File: img/endepro.png Graphic file (type png)
  <use img/endepro.png>
 Package pdftex.def Info: img/endepro.png used on input line 9.
@@ -1776,7 +1776,7 @@ Overfull \vbox (15.90343pt too high) detected at line 426
 \openout4 = `vcs.vrb'.
 
 
-(./vcs.vrb <img/basic_checkin.png, id=159, 426.59375pt x 248.93pt>
+(./vcs.vrb <img/basic_checkin.png, id=165, 426.59375pt x 248.93pt>
 File: img/basic_checkin.png Graphic file (type png)
 
 <use img/basic_checkin.png>
@@ -1788,7 +1788,7 @@ Package pdftex.def Info: img/basic_checkin.png used on input line 10.
 \openout4 = `vcs.vrb'.
 
 
-(./vcs.vrb <img/centralized_example.png, id=165, 521.95pt x 347.2975pt>
+(./vcs.vrb <img/centralized_example.png, id=172, 521.95pt x 347.2975pt>
 File: img/centralized_example.png Graphic file (type png)
 
 <use img/centralized_example.png>
@@ -1800,7 +1800,7 @@ Package pdftex.def Info: img/centralized_example.png used on input line 11.
 \openout4 = `vcs.vrb'.
 
 
-(./vcs.vrb <img/checkout_edit.png, id=174, 426.59375pt x 331.2375pt>
+(./vcs.vrb <img/checkout_edit.png, id=180, 426.59375pt x 331.2375pt>
 File: img/checkout_edit.png Graphic file (type png)
 
 <use img/checkout_edit.png>
@@ -1812,7 +1812,7 @@ Package pdftex.def Info: img/checkout_edit.png used on input line 11.
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/basic_diffs.png, id=181, 521.95pt x 248.93pt>
+<img/basic_diffs.png, id=187, 521.95pt x 248.93pt>
 File: img/basic_diffs.png Graphic file (type png)
  <use img/basic_diffs.png>
 Package pdftex.def Info: img/basic_diffs.png used on input line 11.
@@ -1824,7 +1824,7 @@ Package pdftex.def Info: img/basic_diffs.png used on input line 11.
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/first_branch.png, id=188, 403.5075pt x 418.56375pt>
+<img/first_branch.png, id=194, 403.5075pt x 418.56375pt>
 File: img/first_branch.png Graphic file (type png)
 
 <use img/first_branch.png>
@@ -1840,7 +1840,7 @@ Overfull \vbox (10.4856pt too high) detected at line 567
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/merging.png, id=195, 414.54875pt x 421.575pt>
+<img/merging.png, id=201, 414.54875pt x 421.575pt>
 File: img/merging.png Graphic file (type png)
  <use img/merging.png>
 Package pdftex.def Info: img/merging.png used on input line 11.
@@ -1852,7 +1852,7 @@ Package pdftex.def Info: img/merging.png used on input line 11.
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/vcs_conflict.png, id=202, 501.875pt x 420.57124pt>
+<img/vcs_conflict.png, id=208, 501.875pt x 420.57124pt>
 File: img/vcs_conflict.png Graphic file (type png)
 
 <use img/vcs_conflict.png>
@@ -1864,7 +1864,7 @@ Package pdftex.def Info: img/vcs_conflict.png used on input line 11.
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/tagging.png, id=209, 441.65pt x 311.1625pt>
+<img/tagging.png, id=215, 441.65pt x 311.1625pt>
 File: img/tagging.png Graphic file (type png)
  <use img/tagging.png>
 Package pdftex.def Info: img/tagging.png used on input line 11.
@@ -1879,7 +1879,7 @@ Overfull \vbox (10.4856pt too high) detected at line 616
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/distributed_example.png, id=217, 521.95pt x 406.51875pt>
+<img/distributed_example.png, id=223, 521.95pt x 406.51875pt>
 File: img/distributed_example.png Graphic file (type png)
 
 <use img/distributed_example.png>
@@ -1895,7 +1895,7 @@ Overfull \vbox (12.43004pt too high) detected at line 632
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/distributed_merge.png, id=224, 506.89375pt x 355.3275pt>
+<img/distributed_merge.png, id=230, 506.89375pt x 355.3275pt>
 File: img/distributed_merge.png Graphic file (type png)
 
 <use img/distributed_merge.png>
@@ -1911,7 +1911,7 @@ Overfull \vbox (12.43004pt too high) detected at line 648
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/distributed_push_pull.png, id=231, 506.89375pt x 375.4025pt>
+<img/distributed_push_pull.png, id=237, 506.89375pt x 375.4025pt>
 File: img/distributed_push_pull.png Graphic file (type png)
 
 <use img/distributed_push_pull.png>
@@ -1958,7 +1958,7 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/git.png, id=270, 816.04875pt x 502.87875pt>
+<img/git.png, id=276, 816.04875pt x 502.87875pt>
 File: img/git.png Graphic file (type png)
  <use img/git.png>
 Package pdftex.def Info: img/git.png used on input line 5.
@@ -1995,7 +1995,7 @@ Package pdftex.def Info: img/git.png used on input line 5.
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/b1.png, id=302, 446.66875pt x 311.1625pt>
+<img/b1.png, id=308, 446.66875pt x 311.1625pt>
 File: img/b1.png Graphic file (type png)
  <use img/b1.png>
 Package pdftex.def Info: img/b1.png used on input line 9.
@@ -2005,7 +2005,7 @@ Package pdftex.def Info: img/b1.png used on input line 9.
  <./img/b1.png>]
 \openout4 = `vcs.vrb'.
 
- (./vcs.vrb <img/b2.png, id=309, 393.47pt x 311.1625pt>
+ (./vcs.vrb <img/b2.png, id=315, 393.47pt x 311.1625pt>
 File: img/b2.png Graphic file (type png)
  <use img/b2.png>
 Package pdftex.def Info: img/b2.png used on input line 9.
@@ -2016,7 +2016,7 @@ Package pdftex.def Info: img/b2.png used on input line 9.
  <./img/b2.png>]
 \openout4 = `vcs.vrb'.
 
- (./vcs.vrb <img/b3.png, id=316, 501.875pt x 288.07625pt>
+ (./vcs.vrb <img/b3.png, id=322, 501.875pt x 288.07625pt>
 File: img/b3.png Graphic file (type png)
 
 <use img/b3.png>
@@ -2028,7 +2028,7 @@ Package pdftex.def Info: img/b3.png used on input line 9.
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb
-<img/b4.png, id=325, 501.875pt x 288.07625pt>
+<img/b4.png, id=331, 501.875pt x 288.07625pt>
 File: img/b4.png Graphic file (type png)
  <use img/b4.png>
 Package pdftex.def Info: img/b4.png used on input line 10.
@@ -2042,7 +2042,7 @@ Overfull \vbox (15.70782pt too high) detected at line 860
  <./img/b4.png>]
 \openout4 = `vcs.vrb'.
 
- (./vcs.vrb <img/b5.png, id=332, 501.875pt x 383.4325pt>
+ (./vcs.vrb <img/b5.png, id=338, 501.875pt x 383.4325pt>
 File: img/b5.png Graphic file (type png)
 
 <use img/b5.png>
@@ -2126,7 +2126,20 @@ Package pdftex.def Info: img/b5.png used on input line 9.
 
 ] [61
 
-] [62
+]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb)
+[62
+
+]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb) [63
+
+] [64
+
+] [65
 
 ]
 \tf@nav=\write7
@@ -2138,14 +2151,14 @@ Package pdftex.def Info: img/b5.png used on input line 9.
 \tf@snm=\write9
 \openout9 = `vcs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1074.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1074.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1106.
  (./vcs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1074.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1074.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1106.
 
 Package rerunfilecheck Info: File `vcs.out' has not changed.
-(rerunfilecheck)             Checksum: B0FFB20E6EFB8877A0A895DCF1AB1839;222.
+(rerunfilecheck)             Checksum: 03F81FC473E6BF86C3129AFBF54582E6;276.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2156,10 +2169,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40278 strings out of 494883
- 949134 string characters out of 6179094
- 1109585 words of memory out of 5000000
- 42601 multiletter control sequences out of 15000+600000
+ 40301 strings out of 494883
+ 949352 string characters out of 6179094
+ 1109761 words of memory out of 5000000
+ 42613 multiletter control sequences out of 15000+600000
  9272 words of font info for 35 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  62i,13n,96p,10454b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2170,10 +2183,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vcs.pdf (62 pages, 393676 bytes).
+Output written on vcs.pdf (65 pages, 396636 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 129 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
