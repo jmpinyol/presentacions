@@ -692,6 +692,12 @@ INPUT vcs.vrb
 OUTPUT vcs.vrb
 INPUT vcs.vrb
 INPUT vcs.vrb
+OUTPUT vcs.vrb
+INPUT vcs.vrb
+INPUT vcs.vrb
+OUTPUT vcs.vrb
+INPUT vcs.vrb
+INPUT vcs.vrb
 OUTPUT vcs.nav
 OUTPUT vcs.toc
 OUTPUT vcs.snm

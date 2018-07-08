@@ -1101,6 +1101,7 @@
       \begin{block}{Provem:}
       \begin{itemize}
         \item Verifiquem que tinguem alguns commits en la branca actual
+        \item Ens guardem el ID de la master per poder tornar a enrera
         \item Crearem una nova branca "b1" i afegim alguns commits
         \item Tornem a la branca principal
         \item Mirem com tenim el log: \texttt{\textbf{git log --graph}}
@@ -1120,6 +1121,34 @@
         \item Verifiquem que tinguem alguns commits en la branca actual i de la b1
         \item Copiem un commit de la branca b1 \texttt{\textbf{git cherry-pick <ID>}}
         \item Si la copia del commit ja havia estat incorporada anteriorment git ens avisa.  Per exemple, \texttt{\textbf{git cherry-pick master}}
+      \end{itemize}
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      Rebase és una alternativa al merge que ja coneixem, però deixa una història lineal en comptes de tenir un sol commit.  Seria com automatitzar molts cherry-picks d'un sol cop.
+      \begin{block}{Provem:}
+      \begin{itemize}
+        \item Visualitzem el nostre històric de commits: \texttt{\textbf{git adog}}
+        \item Ens guardem el ID de la master per poder tornar a enrera
+        \item Fem un \texttt{\textbf{git rebase b1}}
+        \item Mirem el log i veurem que la història és lineal a diferència del merge
+      \end{itemize}
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase: esborrar commits}
+
+      Si volem esborrar commits (no l'últim) podem utilitzar rebase amb \texttt{\textbf{--onto}}
+      \begin{block}{Provem:}
+      \begin{itemize}
+        \item Visualitzem el nostre històric de commits: \texttt{\textbf{git adog}}
+        \item Mirem els commits consecutius que volem esborrar
+        \item Executem \texttt{\textbf{git rebase --onto master~3 master~1 master}}
+        \item La comanda ens indica des de quin commit volem esborrar (master~3) fins el primer que volem mantenir (master~1)
+
+        
       \end{itemize}
       \end{block}
     \end{frame}

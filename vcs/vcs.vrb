@@ -1,10 +1,13 @@
-\frametitle{Altres comandes GIT - Cherry Pick}
+\frametitle{Altres comandes GIT - Rebase: esborrar commits}
 
-      El Cherry Pick s'utilitza per fer còpies de commits a un commit nou.
+      Si volem esborrar commits (no l'últim) podem utilitzar rebase amb \texttt{\textbf{--onto}}
       \begin{block}{Provem:}
       \begin{itemize}
-        \item Verifiquem que tinguem alguns commits en la branca actual i de la b1
-        \item Copiem un commit de la branca b1 \texttt{\textbf{git cherry-pick <ID>}}
-        \item Si la copia del commit ja havia estat incorporada anteriorment git ens avisa.  Per exemple, \texttt{\textbf{git cherry-pick master}}
+        \item Visualitzem el nostre històric de commits: \texttt{\textbf{git adog}}
+        \item Mirem els commits consecutius que volem esborrar
+        \item Executem \texttt{\textbf{git rebase --onto master~3 master~1 master}}
+        \item La comanda ens indica des de quin commit volem esborrar (master~3) fins el primer que volem mantenir (master~1)
+
+
       \end{itemize}
       \end{block}
