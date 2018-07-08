@@ -1140,15 +1140,31 @@
 
     \begin{frame}[fragile]{Altres comandes GIT - Rebase: esborrar commits}
 
-      Si volem esborrar commits (no l'últim) podem utilitzar rebase amb \texttt{\textbf{--onto}}
+      Si volem esborrar commits consecutius (no l'últim) podem utilitzar rebase amb \texttt{\textbf{--onto}}
       \begin{block}{Provem:}
       \begin{itemize}
         \item Visualitzem el nostre històric de commits: \texttt{\textbf{git adog}}
         \item Mirem els commits consecutius que volem esborrar
         \item Executem \texttt{\textbf{git rebase --onto master~3 master~1 master}}
         \item La comanda ens indica des de quin commit volem esborrar (master~3) fins el primer que volem mantenir (master~1)
+      \end{itemize}
+      \end{block}
+    \end{frame}
 
-        
+    \begin{frame}[fragile]{Altres comandes GIT - Cherry Pick: esborrar commits}
+
+      Si volem esborrar commits no consecutius farem un cherry-pick
+      \begin{block}{Provem:}
+      \begin{itemize}
+        \item Visualitzem el nostre històric de commits: \texttt{\textbf{git adog}}
+        \item Mirem els commit just anterior al que volem esborrar
+        \item Fem un checkout \texttt{\textbf{git checkout <ID>}}
+        \item Creem una branca \texttt{\textbf{git checkout -b arreglar}}
+        \item Afegim el commit següent al commit que volem esborrar \texttt{\textbf{git cherry-pick <ID>}}
+        \item Repetim aquest pas per tots els commits que volem mantenir
+        \item Tornem a la branca principal \texttt{\textbf{git checkout master}}
+        \item Fem un Hard Reset al commit anterior al que volem esborrar \texttt{\textbf{git reset --hard <ID>}}
+        \item Fem un merge \texttt{\textbf{git merge arreglar}}
       \end{itemize}
       \end{block}
     \end{frame}
