@@ -1071,6 +1071,7 @@
       En la següent secció veurem altres comandes GIT on alguna d'elles s'han d'utilitzar amb cura.
       \begin{block}{Seran:}
       \begin{itemize}
+        \item log
         \item reset
         \item merge amb fast forward i sense
         \item cherry-picks
@@ -1079,6 +1080,20 @@
       \end{block}
     \end{frame}
     
+    \begin{frame}[fragile]{Altres comandes GIT - Log}
+
+      Anem a millorar una mica la visualització del log per linia de comandes
+      \begin{block}{Executem el següent:}
+      \begin{itemize}
+        \item Afegim uns quants commits on a cada commit afegit un nou fitxer i una branca b1 amb commits
+        \item \texttt{\textbf{log --all --decorate --oneline --graph}}
+        \item Veiem que la visualització és molt millor
+        \item Crearem un alias per tenir-ho més fàcil \texttt{\textbf{git config --global alias.adog "log --all --decorate --oneline --graph"}}
+        \item Si ara executem \texttt{\textbf{git adog}} tenim el mateix resultat
+      \end{itemize}
+      \end{block}
+    \end{frame}
+
     \begin{frame}[fragile]{Altres comandes GIT - Reset}
 
       Ens mou la posició de la branca actual.  

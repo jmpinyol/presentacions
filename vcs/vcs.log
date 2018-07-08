@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.23)  8 JUL 2018 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.23)  8 JUL 2018 19:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2161,15 +2161,20 @@ Package pdftex.def Info: img/b5.png used on input line 9.
 ]
 \openout4 = `vcs.vrb'.
 
+ (./vcs.vrb) [68
+
+]
+\openout4 = `vcs.vrb'.
+
  (./vcs.vrb)
-Overfull \vbox (2.99057pt too high) detected at line 1170
+Overfull \vbox (2.99057pt too high) detected at line 1185
  []
 
-[68
-
-] [69
+[69
 
 ] [70
+
+] [71
 
 ]
 \tf@nav=\write7
@@ -2181,11 +2186,11 @@ Overfull \vbox (2.99057pt too high) detected at line 1170
 \tf@snm=\write9
 \openout9 = `vcs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1180.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1180.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1195.
  (./vcs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1180.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1195.
 
 Package rerunfilecheck Info: File `vcs.out' has not changed.
 (rerunfilecheck)             Checksum: 03F81FC473E6BF86C3129AFBF54582E6;276.
@@ -2199,10 +2204,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40331 strings out of 494883
- 949617 string characters out of 6179094
- 1109938 words of memory out of 5000000
- 42623 multiletter control sequences out of 15000+600000
+ 40337 strings out of 494883
+ 949670 string characters out of 6179094
+ 1109974 words of memory out of 5000000
+ 42625 multiletter control sequences out of 15000+600000
  9272 words of font info for 35 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  62i,13n,96p,10454b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2213,10 +2218,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vcs.pdf (70 pages, 402214 bytes).
+Output written on vcs.pdf (71 pages, 403297 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 394 compressed objects within 4 object streams
- 146 named destinations out of 1000 (max. 500000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
+ 148 named destinations out of 1000 (max. 500000)
  281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
