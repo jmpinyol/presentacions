@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.23)  8 JUL 2018 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.23)  12 JUL 2018 06:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2156,25 +2156,114 @@ Package pdftex.def Info: img/b5.png used on input line 9.
 \openout4 = `vcs.vrb'.
 
 
-(./vcs.vrb) [67
+(./vcs.vrb <img/rebase1.png, id=453, 311.1625pt x 245.91875pt>
+File: img/rebase1.png Graphic file (type png)
 
-]
+<use img/rebase1.png>
+Package pdftex.def Info: img/rebase1.png used on input line 10.
+(pdftex.def)             Requested size: 144.00536pt x 113.81102pt.
+) [67
+
+ <./img/rebase1.png>]
 \openout4 = `vcs.vrb'.
 
- (./vcs.vrb) [68
+ (./vcs.vrb
+<img/rebase2.png, id=462, 391.4625pt x 185.69376pt>
+File: img/rebase2.png Graphic file (type png)
+ <use img/rebase2.png>
+Package pdftex.def Info: img/rebase2.png used on input line 9.
+(pdftex.def)             Requested size: 239.93265pt x 113.81102pt.
+)
+[68
+
+ <./img/rebase2.png>]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb
+<img/rebase3.png, id=469, 391.4625pt x 180.675pt>
+File: img/rebase3.png Graphic file (type png)
+ <use img/rebase3.png>
+Package pdftex.def Info: img/rebase3.png used on input line 9.
+(pdftex.def)             Requested size: 246.5928pt x 113.81102pt.
+)
+[69
+
+ <./img/rebase3.png>]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb
+<img/rebase4.png, id=476, 501.875pt x 453.695pt>
+File: img/rebase4.png Graphic file (type png)
+ <use img/rebase4.png>
+Package pdftex.def Info: img/rebase4.png used on input line 6.
+(pdftex.def)             Requested size: 125.89728pt x 113.81102pt.
+)
+[70
+
+ <./img/rebase4.png>]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb
+<img/rebase5.png, id=483, 501.875pt x 316.18124pt>
+File: img/rebase5.png Graphic file (type png)
+ <use img/rebase5.png>
+Package pdftex.def Info: img/rebase5.png used on input line 10.
+(pdftex.def)             Requested size: 180.65189pt x 113.81102pt.
+)
+[71
+
+ <./img/rebase5.png>]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb
+<img/rebase6.png, id=490, 501.875pt x 257.96375pt>
+File: img/rebase6.png Graphic file (type png)
+ <use img/rebase6.png>
+Package pdftex.def Info: img/rebase6.png used on input line 10.
+(pdftex.def)             Requested size: 221.423pt x 113.81102pt.
+)
+[72
+
+ <./img/rebase6.png>]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb
+<img/rebase7.png, id=497, 501.875pt x 122.4575pt>
+File: img/rebase7.png Graphic file (type png)
+ <use img/rebase7.png>
+Package pdftex.def Info: img/rebase7.png used on input line 10.
+(pdftex.def)             Requested size: 233.2163pt x 56.9055pt.
+)
+[73
+
+ <./img/rebase7.png>]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb
+<img/rebase8.png, id=505, 501.875pt x 76.285pt>
+File: img/rebase8.png Graphic file (type png)
+ <use img/rebase8.png>
+Package pdftex.def Info: img/rebase8.png used on input line 10.
+(pdftex.def)             Requested size: 187.1918pt x 28.45274pt.
+) [74
+
+ <./img/rebase8.png>]
+\openout4 = `vcs.vrb'.
+
+ (./vcs.vrb) [75
 
 ]
 \openout4 = `vcs.vrb'.
 
  (./vcs.vrb)
-Overfull \vbox (2.99057pt too high) detected at line 1185
+Overfull \vbox (2.99057pt too high) detected at line 1279
  []
 
-[69
+[76
 
-] [70
+] [77
 
-] [71
+] [78
 
 ]
 \tf@nav=\write7
@@ -2186,11 +2275,11 @@ Overfull \vbox (2.99057pt too high) detected at line 1185
 \tf@snm=\write9
 \openout9 = `vcs.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1289.
  (./vcs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1289.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1289.
 
 Package rerunfilecheck Info: File `vcs.out' has not changed.
 (rerunfilecheck)             Checksum: 03F81FC473E6BF86C3129AFBF54582E6;276.
@@ -2204,10 +2293,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40337 strings out of 494883
- 949670 string characters out of 6179094
- 1109974 words of memory out of 5000000
- 42625 multiletter control sequences out of 15000+600000
+ 40419 strings out of 494883
+ 950761 string characters out of 6179094
+ 1110225 words of memory out of 5000000
+ 42671 multiletter control sequences out of 15000+600000
  9272 words of font info for 35 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  62i,13n,96p,10454b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2218,10 +2307,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vcs.pdf (71 pages, 403299 bytes).
+Output written on vcs.pdf (78 pages, 474260 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 148 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 162 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

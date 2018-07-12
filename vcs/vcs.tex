@@ -1146,10 +1146,104 @@
       \begin{block}{Provem:}
       \begin{itemize}
         \item Visualitzem el nostre històric de commits: \texttt{\textbf{git adog}}
-        \item Ens guardem el ID de la master per poder tornar a enrera
-        \item Fem un \texttt{\textbf{git rebase b1}}
-        \item Mirem el log i veurem que la història és lineal a diferència del merge
       \end{itemize}
+
+      \centering
+      \includegraphics[height=4cm]{rebase1.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      \begin{block}{Continuem:}
+      \begin{itemize}
+        \item Entrem a la branca \texttt{\textbf{git checkout b1}} i fem \texttt{\textbf{git rebase b1}}
+      \end{itemize}
+
+      \centering
+      \includegraphics[height=4cm]{rebase2.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      \begin{block}{Continuem:}
+      \begin{itemize}
+        \item Tornem a la master i fem un merge
+      \end{itemize}
+
+      \centering
+      \includegraphics[height=4cm]{rebase3.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      \begin{block}{Suposem aquest cas:}
+
+      \centering
+      \includegraphics[height=4cm]{rebase4.png}
+
+      \end{block}
+    \end{frame}
+
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      \begin{block}{Per incorporar els canvis de client però no de server:}
+      \begin{itemize}
+        \item Entrem a la branca \texttt{\textbf{git checkout client}}
+        \item Executem \texttt{\textbf{git rebase --onto master server client}}
+      \end{itemize}
+
+      \centering
+      \includegraphics[height=4cm]{rebase5.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      \begin{block}{Podem incorporar-ho a la master:}
+      \begin{itemize}
+        \item \texttt{\textbf{git checkout master}}
+        \item \texttt{\textbf{git merge client}}
+      \end{itemize}
+
+      \centering
+      \includegraphics[height=4cm]{rebase6.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      \begin{block}{Incorporem la server a la master:}
+      \begin{itemize}
+        \item \texttt{\textbf{git checkout server}}
+        \item \texttt{\textbf{git rebase master server}}
+      \end{itemize}
+
+      \centering
+      \includegraphics[height=2cm]{rebase7.png}
+
+      \end{block}
+    \end{frame}
+
+    \begin{frame}[fragile]{Altres comandes GIT - Rebase}
+
+      \begin{block}{Fem un merge:}
+      \begin{itemize}
+        \item \texttt{\textbf{git checkout master}}
+        \item \texttt{\textbf{git merge server}}
+      \end{itemize}
+
+      \centering
+      \includegraphics[height=1cm]{rebase8.png}
+
       \end{block}
     \end{frame}
 
